@@ -1,0 +1,9 @@
+package io.github.pumptatodevelopment.reactandspeedsters;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "pdras", name = "React And Speedsters", version = "1.0")
+public class ReactAndSpeedsters {
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event)
+}

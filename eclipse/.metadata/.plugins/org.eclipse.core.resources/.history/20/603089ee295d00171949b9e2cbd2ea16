@@ -1,0 +1,21 @@
+package io.github.pumptatodevelopment.reactandspeedsters;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = "pdras", name = "React And Speedsters", version = "1.0")
+public class ReactAndSpeedsters {
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		//Item/Block init and registering
+		//Config handling
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event) {
+		//Proxy, TileEntity, entity, GUI and Packet Registering
+	}
+	
+}
